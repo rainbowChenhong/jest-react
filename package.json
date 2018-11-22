@@ -17,7 +17,7 @@
     "regenerator-runtime": "*"
   },
   "scripts": {
-    "jest": "jest",
+    "jest": "jest --useStderr",
     "test": "jest --watchAll",
     "testCoverage":"jest --coverage",
     "testUpdateSnapshot":"jest --updateSnapshot"
