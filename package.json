@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "name": "example-snapshot",
+  "dependencies": {
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "react": "16.4.1",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "babel-jest": "*",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*",
+    "jest": "*",
+    "react-test-renderer": "*",
+    "regenerator-runtime": "*"
+  },
+  "scripts": {
+    "test": "jest --watchAll",
+    "testCoverage":"jest --coverage",
+    "testUpdateSnapshot":"jest --updateSnapshot"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js"
+  }
+}

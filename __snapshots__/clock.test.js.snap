@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Clock is renders correctly 1`] = `
+<p>
+  1482363367.071
+   seconds have ellapsed since the UNIX epoch1.
+</p>
+`;
+
+exports[`renders correctly 1`] = `
+<p>
+  1482363367.071
+   seconds have ellapsed since the UNIX epoch1.
+</p>
+`;
