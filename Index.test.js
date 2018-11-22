@@ -17,7 +17,7 @@ describe('Index component', () => {
   });
   //input 是否正常渲染
   test("check input is render ",()=>{
-    expect(wrapperComponent.exists('input[type="text"]')).toEqual(true);
+    expect(wrapperComponent.exists('input[type="text"]')).toEqual(false);
   });
 
   //input 的change事件
